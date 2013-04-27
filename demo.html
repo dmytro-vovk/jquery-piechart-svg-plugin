@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<title>Pie Chart Demo</title>
+<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<script src="src/jquery.piechart-svg.js"></script>
+
+<script>
+jQuery(function () {
+    jQuery('#chart-1').pie();
+});
+</script>
+
+<style>
+#chart-1 {
+    width: 400px;
+    height: 400px;
+}
+</style>
+
+<div id="chart-1" data-values="[10,15,8,3,16,25]"></div>
+
+</html>
